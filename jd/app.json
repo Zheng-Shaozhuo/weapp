@@ -1,7 +1,10 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/classify/classify",
+    "pages/find/find",
+    "pages/cart/cart",
+    "pages/my/my"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -20,25 +23,25 @@
         "selectedIconPath": "resources/icon/home_active.png"
       },
       {
-        "pagePath": "pages/logs/logs",
+        "pagePath": "pages/classify/classify",
         "text": "分类",
         "iconPath": "resources/icon/classify.png",
         "selectedIconPath": "resources/icon/classify_active.png"
       },
       {
-        "pagePath": "pages/logs/logs",
+        "pagePath": "pages/find/find",
         "text": "发现",
         "iconPath": "resources/icon/find.png",
         "selectedIconPath": "resources/icon/find_active.png"
       },
       {
-        "pagePath": "pages/logs/logs",
+        "pagePath": "pages/cart/cart",
         "text": "购物车",
         "iconPath": "resources/icon/cart.png",
         "selectedIconPath": "resources/icon/cart_active.png"
       },
       {
-        "pagePath": "pages/logs/logs",
+        "pagePath": "pages/my/my",
         "text": "我的",
         "iconPath": "resources/icon/my.png",
         "selectedIconPath": "resources/icon/my_active.png"
