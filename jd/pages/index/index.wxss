@@ -1,21 +1,19 @@
 /**index.wxss**/
-.userinfo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+.inline{display: inline-block;}
+.fixed-top {position: fixed; left: 0; top: 0; z-index: 99999;}
+.page-header{width: 100%; padding: 11rpx 0;}
+.page-header .icon-header{width: 66rpx; height: 66rpx; background-color: white; border-radius: 33rpx; text-align: center;}
+.page-header .scan-header{margin-left: 20rpx; margin-right: 14rpx; float: left;}
+.page-header .info-header{margin-right: 20rpx; margin-left: 14rpx; float: right;}
+.page-header image{height: 32rpx; width: 32rpx; margin-top: 6rpx; display: block; margin-left: 17rpx;}
+.page-header label{font-size: 12rpx; display: block; margin-top: 4rpx;}
+.page-header image.scan{}
+.page-header image.info{}
+.page-header .search-header{position: relative; height: 66rpx; width: 550rpx;}
+.page-header .search-header image.search-icon{width: 32rpx; height: 32rpx; position: absolute; top: 12rpx; left: 13rpx; z-index: 999;}
+.page-header input{width: 484rpx; height: 66rpx; min-height: 66rpx; background-color: white; border-radius: 33rpx; font-size: 26rpx; padding-left: 66rpx;}
 
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
-}
+.swiper{width: 100%; position: relative; height: 284rpx;}
+.swiper swiper image{width: 100%; height: 284rpx;}
 
-.userinfo-nickname {
-  color: #aaa;
-}
-
-.usermotto {
-  margin-top: 200px;
-}
+.page-container{background-color: #F5F5F5; padding: 0 20rpx; width: 710rpx;}
